@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guessnumber.css">
+   <!-- <link rel="stylesheet" href="../guessnumber.css">-->
+
+    <title>GUESS THE NUMBER</title>
+</head>
+<body>
+    <nav class="nav">
+        <button class="btn"><a href="/" aria-current="page">HOME</a></button>
+       <button class="btn2" ><a target="_blank" href="https://www.youtube.com/@sabaarchive">YOUTUBE CHANNEL</a></button>
+    </nav>
+    <div id="wrapper">
+        <h1>Number Guessing Game</h1>
+        <p>Tryand  guess a random  number between 1=100</p>
+        <p>You have 10 attempt to guess the right number</p>
+        <br>
+        <form class="form">
+            <label2 for="guess-number" id="guess">Guess a Number</label><br>
+            <input type="text"id="guess-number" name="guess-number"><br>
+            <button  type="button" class="button" id="subt">submit Guess</button><br>
+        </form>
+        <div class="result-paras">
+            <p>Previous guesses: <span class="guesses"></span></p>
+            <p>guesses remaining: <span class="lastresult">10</span></p>
+            <p class="lower"></p>
+        </div>
+        <script src="./guessnumber2.js"></script>
+
+    </div>
+</body>
+</html>
