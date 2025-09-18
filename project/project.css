@@ -58,17 +58,16 @@ h1{
 .projects{
   display:flex;
   flex-direction:column;
+  justify-content: center;
   gap:14px;
   padding-bottom:50px;
   cursor: pointer;
   text-align: center;
   background-color: #222;
-
+  position: relative;
   width: 300px;
-  position: fixed;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 0 auto;
+
 }
 .card {
   background: white;
